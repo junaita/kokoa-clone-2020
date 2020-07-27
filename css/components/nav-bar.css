@@ -15,4 +15,24 @@
 
 .nav__link {
   color: #2e363e;
+  position: relative;
+}
+
+.nav__notificaton {
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+
+.nav__ellipsis {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 32px;
+  bottom: 30px;
 }
